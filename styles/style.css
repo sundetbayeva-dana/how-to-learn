@@ -7,16 +7,11 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 0;
-}
 
+}
 
 .white_text {
   color: white;
-}
-
-.table_text_quote {
-  padding-top: 20px;
 }
 
 .header {
@@ -28,20 +23,6 @@
   order: 1;
   background-color: #f2f2f2;
   /* выше установили ограничения для секции */
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .header__logo {
@@ -75,7 +56,6 @@
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
-
 }
 
 .header__main_illustration {
@@ -85,7 +65,6 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-
 }
 
 .header__square-pic {
@@ -95,7 +74,7 @@
   position: absolute;
   right: 0;
   top: 64px;
-  }
+}
 
 .header__link {
   text-decoration: none;
@@ -114,7 +93,6 @@
   flex-direction: column;
   width: 80%;
   min-width: 784px;
-
 }
 
 .two-columns {
@@ -122,7 +100,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 
 .two-columns_brief {
@@ -134,7 +111,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0;
-    /*border: 3px solid red;*/
+  /*border: 3px solid red;*/
 }
 
 .two-columns_paragraph {
@@ -215,6 +192,10 @@
   margin: 0;
 }
 
+.table_text_quote {
+  padding-top: 20px;
+}
+
 .feynman {
   width: 100%;
   min-height: 790px;
@@ -223,7 +204,6 @@
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: left bottom;
-
 }
 
 .feynman__title {
@@ -248,7 +228,6 @@
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
-
 }
 
 .feynman__link {
@@ -271,6 +250,13 @@
   overflow: hidden;
   }
 
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
 .table_theme_dark {
   margin: 0 auto 0;
 }
@@ -284,16 +270,13 @@
   width: 877px;
   height: 877px;
   z-index: 0;
-
 }
 
 .footer {
   min-height: 350px;
   padding-top: 60px;
   padding-bottom: 40px;
-
   background-color: black;
-
 }
 
 .footer__columns {
@@ -314,7 +297,6 @@
 .footer__author {
   margin-top: 18px;
   margin-bottom: 18px;
-
 }
 
 .footer__column-link {
@@ -337,7 +319,6 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
-
 }
 
 .footer__column_content-social-heading {
