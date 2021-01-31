@@ -356,6 +356,7 @@
   font-weight: bold;
   margin: 0 0 20px;
   color: white;
+  display: flex;
 }
 
 .footer__column_content-info {
@@ -367,11 +368,6 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
-
-.footer__column-heading {
-  color:white;
-  display: flex;
 }
 
 .footer__column_content_social {
